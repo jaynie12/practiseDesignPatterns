@@ -1,5 +1,4 @@
-
-package StrategyPattern;
+package main;
 
 public class ExpressShippingCostStrategy implements ShippingCost {
 

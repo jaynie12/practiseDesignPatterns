@@ -1,5 +1,4 @@
-
-package StrategyPattern;
+package main;
 
 public class OverNightShippingCostStrategy implements ShippingCost {
 
@@ -12,4 +11,3 @@ public class OverNightShippingCostStrategy implements ShippingCost {
     }
     
 }
-

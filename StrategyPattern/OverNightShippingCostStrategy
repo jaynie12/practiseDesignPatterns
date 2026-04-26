@@ -1,0 +1,15 @@
+
+package StrategyPattern;
+
+public class OverNightShippingCostStrategy implements ShippingCost {
+
+    public final double OVERNIGHT_FEE = 4.56;
+
+    @Override
+    public double calculateShippingCost(double weight, double distance) {
+        double calculatedCost = weight * distance;
+        return calculatedCost + OVERNIGHT_FEE;
+    }
+    
+}
+

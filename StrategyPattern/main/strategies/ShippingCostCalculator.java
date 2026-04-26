@@ -1,6 +1,6 @@
-package main;
+package main.strategies;
 
-public interface ShippingCost {
+public interface ShippingCostCalculator {
     double calculateShippingCost(double weight, double distance);
     
 }

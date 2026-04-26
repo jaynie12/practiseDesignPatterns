@@ -1,6 +1,6 @@
-package main;
+package main.strategies;
 
-public class ExpressShippingCostStrategy implements ShippingCost {
+public class ExpressShippingCostStrategy implements ShippingCostCalculator {
 
     public final double EXPRESS_FEE = 5.56;
 

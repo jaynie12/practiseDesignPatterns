@@ -1,6 +1,6 @@
-package main;
+package main.strategies;
 
-public class StandardShippingCostStrategy implements ShippingCost {
+public class StandardShippingCostStrategy implements ShippingCostCalculator {
 
     @Override
     public double calculateShippingCost(double weight, double distance) {

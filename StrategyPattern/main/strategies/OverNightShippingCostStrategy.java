@@ -1,6 +1,6 @@
-package main;
+package main.strategies;
 
-public class OverNightShippingCostStrategy implements ShippingCost {
+public class OverNightShippingCostStrategy implements ShippingCostCalculator {
 
     public final double OVERNIGHT_FEE = 4.56;
 

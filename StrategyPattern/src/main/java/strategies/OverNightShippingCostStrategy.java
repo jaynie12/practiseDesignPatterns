@@ -1,4 +1,4 @@
-package main.strategies;
+package src.main.java.strategies;
 
 public class OverNightShippingCostStrategy implements ShippingCostCalculator {
 

@@ -1,12 +1,8 @@
-package main;
+package src.main.java.strategies;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import main.strategies.ExpressShippingCostStrategy;
-import main.strategies.OverNightShippingCostStrategy;
-import main.strategies.ShippingCostCalculator;
-import main.strategies.StandardShippingCostStrategy;
 
 public class ShippingCostClient {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

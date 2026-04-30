@@ -1,6 +1,4 @@
-package main;
-
-import main.strategies.ShippingCostCalculator;
+package src.main.java.strategies;
 
 // useful in scenarios where you want to switch between different strategies based on dynamic conditions
 // in this context it is useful because people might want to switch shipping types quickly based on the cost they received. 

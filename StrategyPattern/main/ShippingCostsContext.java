@@ -16,7 +16,7 @@ public class ShippingCostsContext {
         this.shippingCost = shippingCost;
     }
 
-    public void calculateCost(double weight, double distance){
-        shippingCost.calculateShippingCost(weight, distance);
+    public double calculateCost(double weight, double distance){
+        return shippingCost.calculateShippingCost(weight, distance);
     }
 }
